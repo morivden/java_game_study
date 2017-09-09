@@ -2,9 +2,9 @@ import java.awt.*;
 
 public class Ball {
   // ボールの大きさ
-  private static final int SIZE = 10;
+  protected static final int SIZE = 10;
   // ボールの位置(x, y)円の左上の座標
-  private int x, y;
+  protected int x, y;
   // ボールの速度(vx, vy)
   protected int vx, vy;
 
